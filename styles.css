@@ -1,11 +1,11 @@
 html {
   font-family: 'PT Serif', serif;
   font-size: 18px;
+  line-height: 1.6;
 }
 
 p {
   max-width: 32em;
-  line-height: 1.6;
 }
 
 h1 {
