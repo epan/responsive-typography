@@ -36,8 +36,9 @@ h3 {
 }
 
 .button {
+  text-align: center;
   background-color: #ccc;
   width: 120px;
-  line-height: 58px; /* 18px * 1.6 * 2 = 57.6px*/
-  text-align: center;
+  line-height: 29px; /* 18px * 1.6 = 28.8px*/
+  padding: 15px; /* 0.5 baseline */
 }
