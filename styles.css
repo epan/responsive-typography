@@ -26,3 +26,11 @@ h3 {
   font-size: 1.333em; /* 23.994px */
   line-height: 29px; /* 18px * 1.6 = 28.8px */
 }
+
+.inset {
+  font-size: 0.64em; /* 11.52px */
+  float: left;
+  max-width: 16em;
+  margin: 6px 15px 0 0;
+  line-height: 21.6px; /* 18px * 1.6 * 0.75 =  21.6px*/
+}
