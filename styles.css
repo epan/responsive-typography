@@ -1,0 +1,9 @@
+html {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+
+p {
+  max-width: 32em;
+  line-height: 1.6;
+}
