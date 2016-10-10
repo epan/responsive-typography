@@ -10,6 +10,7 @@ html {
 body {
   margin: 0 auto;
   max-width: 32em;
+  padding: 0 29px;
 }
 
 h1, h2, h3, p {
