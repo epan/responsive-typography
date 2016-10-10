@@ -3,9 +3,9 @@ html {
   font-size: 18px;
   line-height: 1.6;
   max-width: 32em;
-  /* create a visual baseline grid repat every 24px*/
-  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
-  background-size: 100% 29px;
+  /* create a visual baseline grid repat every 29px*/
+  /*background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
+  background-size: 100% 29px;*/
 }
 
 h1, h2, h3, p {
