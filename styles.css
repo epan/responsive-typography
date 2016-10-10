@@ -34,3 +34,10 @@ h3 {
   margin: 6px 15px 0 0;
   line-height: 21.6px; /* 18px * 1.6 * 0.75 =  21.6px*/
 }
+
+.button {
+  background-color: #ccc;
+  width: 120px;
+  line-height: 58px; /* 18px * 1.6 * 2 = 57.6px*/
+  text-align: center;
+}
