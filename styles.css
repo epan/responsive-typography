@@ -2,20 +2,24 @@ html {
   font-family: 'PT Serif', serif;
   font-size: 18px;
   line-height: 1.6;
-}
-
-p {
   max-width: 32em;
 }
 
+h1, h2, h3, p {
+  margin: 24 0; /* 18px * 1.333 =  23.994px */
+}
+
 h1 {
-  font-size: 2.369em;
+  font-size: 2.369em; /* 42.642px */
+  line-height: 48px; /* 18px * 1.333 * 2 = 47.988px*/
 }
 
 h2 {
-  font-size: 1.777em;
+  font-size: 1.777em; /* 31.986px */
+  line-height: 48px; /* 18px * 1.333 * 2 = 47.988px*/
 }
 
 h3 {
-  font-size: 1.333em;
+  font-size: 1.333em; /* 23.994px */
+  line-height: 24px; /* 18px * 1.333 = 23.994px */
 }
