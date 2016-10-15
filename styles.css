@@ -47,3 +47,17 @@ h3 {
   line-height: 29px; /* 18px * 1.6 = 28.8px*/
   padding: 15px; /* 0.5 baseline */
 }
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  display: inline-block;
+  border: 1px;
+  border-radius: 100%;
+  margin: 8px; /* 0.25 baseline */
+}
+
+.shape:first-child {
+  margin-left: -8px;
+}
