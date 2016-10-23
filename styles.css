@@ -17,7 +17,7 @@ h1, h2, h3 {
   margin: 29px 0; /* 18px * 1.6 =  28.8px */
 }
 
-p, ul, ol {
+p, ul, ol, blockquote {
   margin: 22px 0; /* 18px * 1.6 * 0.75 = 21.6px */
 }
 
@@ -43,6 +43,11 @@ h2 {
 h3 {
   font-size: 1.333em; /* 23.994px */
   line-height: 29px; /* 18px * 1.6 = 28.8px */
+}
+blockquote {
+  border-left: 7px solid #ccc; /* 0.25 baseline = 7.2px */
+  padding-left: 25.4px; /* 14.4px + 18px - 7px = 32.4px : Half baseline + font size - border-left width */
+  color: #888;
 }
 
 .inset {
