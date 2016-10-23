@@ -57,6 +57,10 @@ h3 {
   padding: 15px; /* 0.5 baseline */
 }
 
+.row + .row {
+  margin-top: 15px; /* 0.5 baseline */
+}
+
 .shape {
   width: 100px;
   height: 100px;
@@ -64,9 +68,8 @@ h3 {
   display: inline-block;
   border: 1px;
   border-radius: 100%;
-  margin: 8px; /* 0.25 baseline */
 }
 
-.shape:first-child {
-  margin-left: 0px;
+.shape + .shape {
+  margin-left: 15px; /* 0.5 baseline */
 }
