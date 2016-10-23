@@ -13,8 +13,21 @@ body {
   padding: 0 29px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3 {
   margin: 29px 0; /* 18px * 1.6 =  28.8px */
+}
+
+p, ul, ol, blockquote {
+  margin: 22px 0; /* 18px * 1.6 * 0.75 = 21.6px */
+}
+
+ul, ol {
+  padding: 0;
+  margin-left: 32.4px; /* 14.4px + 18px = 32.4px Half baseline + font size */
+}
+
+li + li {
+  margin-top: 7px; /* 0.25 baseline */
 }
 
 h1 {
@@ -31,6 +44,11 @@ h3 {
   font-size: 1.333em; /* 23.994px */
   line-height: 29px; /* 18px * 1.6 = 28.8px */
 }
+blockquote {
+  border-left: 7px solid #ccc; /* 0.25 baseline = 7.2px */
+  padding-left: 25.4px; /* 14.4px + 18px - 7px = 32.4px : Half baseline + font size - border-left width */
+  color: #888;
+}
 
 .inset {
   font-size: 0.64em; /* 11.52px */
@@ -46,4 +64,21 @@ h3 {
   max-width: 120px;
   line-height: 29px; /* 18px * 1.6 = 28.8px*/
   padding: 15px; /* 0.5 baseline */
+}
+
+.row + .row {
+  margin-top: 15px; /* 0.5 baseline */
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  display: inline-block;
+  border: 1px;
+  border-radius: 100%;
+}
+
+.shape + .shape {
+  margin-left: 15px; /* 0.5 baseline */
 }
