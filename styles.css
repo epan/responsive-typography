@@ -26,6 +26,10 @@ ul, ol {
   margin-left: 32.4px; /* 14.4px + 18px = 32.4px Half baseline + font size */
 }
 
+li + li {
+  margin-top: 7px; /* 0.25 baseline */
+}
+
 h1 {
   font-size: 2.369em; /* 42.642px */
   line-height: 58px; /* 18px * 1.6 * 2 = 57.6px*/
