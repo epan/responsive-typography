@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
+const browserSync = require('browser-sync');
 
 gulp.task('sass', function() {
   return gulp.src('app/scss/**/*.scss')
@@ -10,9 +11,12 @@ gulp.task('sass', function() {
       precision: 3
     }))
     .pipe(gulp.dest('app/css'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
 });
 
-gulp.task('watch', ['sass'], function(){
+gulp.task('watch', ['browserSync', 'sass'], function(){
   gulp.watch('app/scss/**/*.scss', ['sass']);
 });
 
@@ -24,3 +28,11 @@ function customPlumber(errTitle) {
     })
   });
 }
+
+gulp.task('browserSync', function() {
+  browserSync({
+    server: {
+      baseDir: 'app'
+    },
+  })
+})

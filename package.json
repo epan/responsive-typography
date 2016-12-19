@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/epan/responsive-typography#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
