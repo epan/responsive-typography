@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const plumber = require('gulp-plumber');
+const notify = require('gulp-notify');
 
 gulp.task('sass', function() {
   return gulp.src('app/scss/**/*.scss')
@@ -15,16 +16,8 @@ gulp.task('watch', function(){
   gulp.watch('app/scss/**/*.scss', ['sass']);
 });
 
-function errorHandler(err) {
-    console.log(err.toString());
-    this.emit('end');
-}
-
 function customPlumber() {
   return plumber({
-    errorHandler: function(err) {
-      console.log(err.stack);
-      this.emit('end');
-    }
+    errorHandler: notify.onError("Error: <%= error.message %>")
   });
 }
