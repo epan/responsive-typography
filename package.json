@@ -1,0 +1,22 @@
+{
+  "name": "responsive-typography",
+  "version": "1.0.0",
+  "description": "exercises from responsive typography course\r http://responsive-typography.zellwk.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epan/responsive-typography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epan/responsive-typography/issues"
+  },
+  "homepage": "https://github.com/epan/responsive-typography#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
