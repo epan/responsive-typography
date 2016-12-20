@@ -9,15 +9,24 @@ html {
 
   @media (min-width: 600px) {
     font-size: 20px;
+
+    /* Un/comment below to create a visual baseline grid repat every 29px*/
+    background-image: linear-gradient(to bottom, transparent 0px, transparent 31px, red 31px, red 32px);
+    background-size: 100% 32px;
   }
 
   @media (min-width: 1000px) {
     font-size: 22px;
+
+    /* Un/comment below to create a visual baseline grid repat every 29px*/
+    background-image: linear-gradient(to bottom, transparent 0px, transparent 34.2px, red 34.2px, red 35.2px);
+    background-size: 100% 35.2px;
   }
 }
 
 h1 {
   font-size: 42.636px; // 18px * 1.333 * 1.333 * 1.333 = 42.635px
+  line-height: 57.6px; /* 18px * 1.6 * 2 = 57.6px*/
 
   @media (min-width: 600px) {
     font-size: 47.372px; // 20px * 1.333 * 1.333 * 1.333 = 47.372px
@@ -30,6 +39,7 @@ h1 {
 
 h2 {
   font-size: 31.984px; // 18px * 1.333 * 1.333 = 31.984px
+  line-height: 43.2px; /* 18px * 1.6 * 1.5 = 43.2px*/
 
   @media (min-width: 600px) {
     font-size: 35.538px; // 20px * 1.333 * 1.333 = 35.538px
@@ -42,6 +52,7 @@ h2 {
 
 h3 {
   font-size: 23.994px; // 18px * 1.333 = 23.994px
+  line-height: 28.8px; /* 18px * 1.6 = 28.8px */
 
   @media (min-width: 600px) {
     font-size: 26.66px; // 20px * 1.333 = 26.66px
