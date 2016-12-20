@@ -2,21 +2,15 @@ html {
   font-family: 'PT Serif', serif;
   font-size: 18px;
   line-height: 1.6;
-  /* Un/comment below to create a visual baseline grid repat every 29px*/
-  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
-  background-size: 100% 29px; }
+  /* Un/comment below to create a visual baseline grid repat every 29px*/ }
   @media (min-width: 600px) {
     html {
       font-size: 20px;
-      /* Un/comment below to create a visual baseline grid repat every 29px*/
-      background-image: linear-gradient(to bottom, transparent 0px, transparent 31px, red 31px, red 32px);
-      background-size: 100% 32px; } }
+      /* Un/comment below to create a visual baseline grid repat every 29px*/ } }
   @media (min-width: 1000px) {
     html {
       font-size: 22px;
-      /* Un/comment below to create a visual baseline grid repat every 29px*/
-      background-image: linear-gradient(to bottom, transparent 0px, transparent 34.2px, red 34.2px, red 35.2px);
-      background-size: 100% 35.2px; } }
+      /* Un/comment below to create a visual baseline grid repat every 29px*/ } }
 
 h1 {
   font-size: 42.636px;
@@ -24,21 +18,24 @@ h1 {
   /* 18px * 1.6 * 2 = 57.6px*/ }
   @media (min-width: 600px) {
     h1 {
-      font-size: 47.372px; } }
+      font-size: 47.372px;
+      line-height: 64px; } }
   @media (min-width: 1000px) {
     h1 {
-      font-size: 52.109px; } }
+      font-size: 52.109px;
+      line-height: 70.4px; } }
 
 h2 {
   font-size: 31.984px;
-  line-height: 43.2px;
-  /* 18px * 1.6 * 1.5 = 43.2px*/ }
+  line-height: 43.2px; }
   @media (min-width: 600px) {
     h2 {
-      font-size: 35.538px; } }
+      font-size: 35.538px;
+      line-height: 48px; } }
   @media (min-width: 1000px) {
     h2 {
-      font-size: 39.092px; } }
+      font-size: 39.092px;
+      line-height: 52.8px; } }
 
 h3 {
   font-size: 23.994px;
@@ -46,7 +43,27 @@ h3 {
   /* 18px * 1.6 = 28.8px */ }
   @media (min-width: 600px) {
     h3 {
-      font-size: 26.66px; } }
+      font-size: 26.66px;
+      line-height: 32px; } }
   @media (min-width: 1000px) {
     h3 {
-      font-size: 29.326px; } }
+      font-size: 29.326px;
+      line-height: 35.2px; } }
+
+h1, h2, h3 {
+  margin: 28.8px 0; }
+  @media (min-width: 600px) {
+    h1, h2, h3 {
+      margin: 32px 0; } }
+  @media (min-width: 1000px) {
+    h1, h2, h3 {
+      margin: 35.2px 0; } }
+
+p, ul, ol, blockquote {
+  margin: 21.6px 0; }
+  @media (min-width: 600px) {
+    p, ul, ol, blockquote {
+      margin: 24px 0; } }
+  @media (min-width: 1000px) {
+    p, ul, ol, blockquote {
+      margin: 26.4px 0; } }

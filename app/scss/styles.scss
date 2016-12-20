@@ -4,23 +4,23 @@ html {
   line-height: 1.6;
 
   /* Un/comment below to create a visual baseline grid repat every 29px*/
-  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
-  background-size: 100% 29px;
+  // background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
+  // background-size: 100% 29px;
 
   @media (min-width: 600px) {
     font-size: 20px;
 
     /* Un/comment below to create a visual baseline grid repat every 29px*/
-    background-image: linear-gradient(to bottom, transparent 0px, transparent 31px, red 31px, red 32px);
-    background-size: 100% 32px;
+    // background-image: linear-gradient(to bottom, transparent 0px, transparent 31px, red 31px, red 32px);
+    // background-size: 100% 32px;
   }
 
   @media (min-width: 1000px) {
     font-size: 22px;
 
     /* Un/comment below to create a visual baseline grid repat every 29px*/
-    background-image: linear-gradient(to bottom, transparent 0px, transparent 34.2px, red 34.2px, red 35.2px);
-    background-size: 100% 35.2px;
+    // background-image: linear-gradient(to bottom, transparent 0px, transparent 34.2px, red 34.2px, red 35.2px);
+    // background-size: 100% 35.2px;
   }
 }
 
@@ -30,23 +30,27 @@ h1 {
 
   @media (min-width: 600px) {
     font-size: 47.372px; // 20px * 1.333 * 1.333 * 1.333 = 47.372px
+    line-height: 64px; // 20px * 1.6 * 2 = 64px
   }
 
   @media (min-width: 1000px) {
     font-size: 52.109px; // 22px * 1.333 * 1.333 * 1.333 = 52.109px
+    line-height: 70.4px; // 22px * 1.6 * 2 = 70.4px
   }
 }
 
 h2 {
   font-size: 31.984px; // 18px * 1.333 * 1.333 = 31.984px
-  line-height: 43.2px; /* 18px * 1.6 * 1.5 = 43.2px*/
+  line-height: 43.2px; // 18px * 1.6 * 1.5 (multi-line spacing) = 43.2px
 
   @media (min-width: 600px) {
     font-size: 35.538px; // 20px * 1.333 * 1.333 = 35.538px
+    line-height: 48px; // 20px * 1.6* 1.5 = 32px
   }
 
   @media (min-width: 1000px) {
-    font-size: 39.092px // 22px * 1.333 * 1.333 = 39.092px
+    font-size: 39.092px; // 22px * 1.333 * 1.333 = 39.092px
+    line-height: 52.8px; // 22px * 1.6 * 1.5 = 52.8px
   }
 }
 
@@ -56,9 +60,44 @@ h3 {
 
   @media (min-width: 600px) {
     font-size: 26.66px; // 20px * 1.333 = 26.66px
+    line-height: 32px; // 20px * 1.6 = 32px
   }
 
   @media (min-width: 1000px) {
     font-size: 29.326px; // 22px * 1.333 = 29.326px
+    line-height: 35.2px; // 22px * 1.6 = 35.2px
   }
 }
+
+h1, h2, h3 {
+  margin: 28.8px 0; // 18px * 1.6 = 28.8px
+
+  @media (min-width: 600px) {
+    margin: 32px 0; // 20px * 1.6 = 32px
+  }
+
+  @media (min-width: 1000px) {
+    margin: 35.2px 0; // 22px * 1.6 = 35.2px
+  }
+}
+
+p, ul, ol, blockquote {
+  margin: 21.6px 0; // 18px * 1.6 * 0.75 = 21.6px
+
+  @media (min-width: 600px) {
+    margin: 24px 0; // 20px * 1.6 * 0.75 = 24px
+  }
+
+  @media (min-width: 1000px) {
+    margin: 26.4px 0; // 22px * 1.6 * 0.75 = 26.4px
+  }
+}
+
+
+// @media (min-width: 600px) {
+//
+// }
+//
+// @media (min-width: 1000px) {
+//
+// }
