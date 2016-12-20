@@ -1,15 +1,40 @@
 html {
-  font-size: 16px;
-}
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  /* Un/comment below to create a visual baseline grid repat every 29px*/
+  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
+  background-size: 100% 29px; }
+  @media (min-width: 600px) {
+    html {
+      font-size: 20px; } }
+  @media (min-width: 1000px) {
+    html {
+      font-size: 22px; } }
 
-@media (min-width: 600px) {
-  html {
-    font-size: 18px;
-  }
-}
+h1 {
+  font-size: 42.636px; }
+  @media (min-width: 600px) {
+    h1 {
+      font-size: 47.372px; } }
+  @media (min-width: 1000px) {
+    h1 {
+      font-size: 52.109px; } }
 
-@media (min-width: 1000px) {
-  html {
-    font-size: 20px;
-  }
-}
+h2 {
+  font-size: 31.984px; }
+  @media (min-width: 600px) {
+    h2 {
+      font-size: 35.538px; } }
+  @media (min-width: 1000px) {
+    h2 {
+      font-size: 39.092px; } }
+
+h3 {
+  font-size: 23.994px; }
+  @media (min-width: 600px) {
+    h3 {
+      font-size: 26.66px; } }
+  @media (min-width: 1000px) {
+    h3 {
+      font-size: 29.326px; } }
