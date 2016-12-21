@@ -4,8 +4,8 @@ html {
   line-height: 1.6;
 
   /* Un/comment below to create a visual baseline grid repat every 29px*/
-  // background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
-  // background-size: 100% 29px;
+  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
+  background-size: 100% 29px;
 
   @media (min-width: 600px) {
     font-size: 20px;
@@ -93,6 +93,28 @@ p, ul, ol, blockquote {
   }
 }
 
+.inset {
+  font-size: 0.64em; // 11.52px
+  float: left;
+  max-width: 16em;
+  margin: 6px 15px 0 0;
+  line-height: 21.6px; // 18px * 1.6 * 0.75 =  21.6px
+
+  @media (min-width: 600px) {
+    margin: 7px 15px 0 0;
+    line-height: 24px; // 20px *1.6 * 0.75
+  }
+
+  @media (min-width: 1000px) {
+    margin: 8px 15px 0 0;
+    line-height: 26.4px; // 22px * 1.6 * 0.75
+  }
+}
+
+// ul, ol {
+//   padding: 0;
+//   margin-left: 32.4px; // 14.4px + 18px = 32.4px (Half baseline + font size)
+// }
 
 // @media (min-width: 600px) {
 //

@@ -2,7 +2,9 @@ html {
   font-family: 'PT Serif', serif;
   font-size: 18px;
   line-height: 1.6;
-  /* Un/comment below to create a visual baseline grid repat every 29px*/ }
+  /* Un/comment below to create a visual baseline grid repat every 29px*/
+  background-image: linear-gradient(to bottom, transparent 0px, transparent 28px, red 28px, red 29px);
+  background-size: 100% 29px; }
   @media (min-width: 600px) {
     html {
       font-size: 20px;
@@ -67,3 +69,18 @@ p, ul, ol, blockquote {
   @media (min-width: 1000px) {
     p, ul, ol, blockquote {
       margin: 26.4px 0; } }
+
+.inset {
+  font-size: 0.64em;
+  float: left;
+  max-width: 16em;
+  margin: 6px 15px 0 0;
+  line-height: 21.6px; }
+  @media (min-width: 600px) {
+    .inset {
+      margin: 7px 15px 0 0;
+      line-height: 24px; } }
+  @media (min-width: 1000px) {
+    .inset {
+      margin: 8px 15px 0 0;
+      line-height: 26.4px; } }
