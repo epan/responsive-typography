@@ -84,3 +84,15 @@ p, ul, ol, blockquote {
     .inset {
       margin: 8px 15px 0 0;
       line-height: 26.4px; } }
+
+.button {
+  text-align: center;
+  background-color: #ccc;
+  max-width: 8em;
+  padding: 14.4px; }
+  @media (min-width: 600px) {
+    .button {
+      padding: 16px; } }
+  @media (min-width: 1000px) {
+    .button {
+      padding: 17.6px; } }

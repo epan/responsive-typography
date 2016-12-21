@@ -111,6 +111,21 @@ p, ul, ol, blockquote {
   }
 }
 
+.button {
+  text-align: center;
+  background-color: #ccc;
+  max-width: 8em;
+  padding: 14.4px; // 0.5 baseline
+
+  @media (min-width: 600px) {
+    padding: 16px; // 0.5 baseline
+  }
+
+  @media (min-width: 1000px) {
+    padding: 17.6px; // 0.5 baseline
+  }
+}
+
 // ul, ol {
 //   padding: 0;
 //   margin-left: 32.4px; // 14.4px + 18px = 32.4px (Half baseline + font size)
