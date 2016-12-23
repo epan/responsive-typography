@@ -14,35 +14,17 @@ html {
 
 h1 {
   font-size: 2.368em;
-  line-height: 57.6px;
+  line-height: 1.351em;
   /* 18px * 1.6 * 2 = 57.6px*/ }
-  @media (min-width: 600px) {
-    h1 {
-      line-height: 64px; } }
-  @media (min-width: 1000px) {
-    h1 {
-      line-height: 70.4px; } }
 
 h2 {
   font-size: 1.776em;
-  line-height: 43.2px; }
-  @media (min-width: 600px) {
-    h2 {
-      line-height: 48px; } }
-  @media (min-width: 1000px) {
-    h2 {
-      line-height: 52.8px; } }
+  line-height: 1.351em; }
 
 h3 {
   font-size: 1.333em;
-  line-height: 28.8px;
+  line-height: 1.2em;
   /* 18px * 1.6 = 28.8px */ }
-  @media (min-width: 600px) {
-    h3 {
-      line-height: 32px; } }
-  @media (min-width: 1000px) {
-    h3 {
-      line-height: 35.2px; } }
 
 h1, h2, h3 {
   margin: 28.8px 0; }
