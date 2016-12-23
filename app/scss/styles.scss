@@ -1,3 +1,7 @@
+@function em($target, $context) {
+  @return $target / $context * 1em;
+}
+
 html {
   font-family: 'PT Serif', serif;
   font-size: 18px;
