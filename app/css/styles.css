@@ -32,6 +32,11 @@ h3 {
 p, ul, ol, blockquote {
   margin: 1.2em 0; }
 
+.container {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto; }
+
 .inset {
   font-size: 0.64em;
   float: left;
