@@ -15,25 +15,19 @@ html {
 h1 {
   font-size: 2.368em;
   line-height: 1.351em;
-  /* 18px * 1.6 * 2 = 57.6px*/ }
+  /* 18px * 1.6 * 2 = 57.6px*/
+  margin: 0.676em 0; }
 
 h2 {
   font-size: 1.776em;
-  line-height: 1.351em; }
+  line-height: 1.351em;
+  margin: 0.901em 0; }
 
 h3 {
   font-size: 1.333em;
   line-height: 1.2em;
-  /* 18px * 1.6 = 28.8px */ }
-
-h1, h2, h3 {
-  margin: 28.8px 0; }
-  @media (min-width: 600px) {
-    h1, h2, h3 {
-      margin: 32px 0; } }
-  @media (min-width: 1000px) {
-    h1, h2, h3 {
-      margin: 35.2px 0; } }
+  /* 18px * 1.6 = 28.8px */
+  margin: 1.2em 0; }
 
 p, ul, ol, blockquote {
   margin: 21.6px 0; }
