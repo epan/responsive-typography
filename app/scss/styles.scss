@@ -26,46 +26,42 @@ html {
 
 h1 {
   // 1.333 * 1.333 * 1.333 = 2.368em
-  font-size: 3em; // 18px * 1.333 * 1.333 * 1.333 = 42.635px
+  font-size: 2.368em; // 18px * 1.333 * 1.333 * 1.333 = 42.635px
   line-height: 57.6px; /* 18px * 1.6 * 2 = 57.6px*/
 
   @media (min-width: 600px) {
-    // font-size: 47.372px; // 20px * 1.333 * 1.333 * 1.333 = 47.372px
     line-height: 64px; // 20px * 1.6 * 2 = 64px
   }
 
   @media (min-width: 1000px) {
-    // font-size: 52.109px; // 22px * 1.333 * 1.333 * 1.333 = 52.109px
     line-height: 70.4px; // 22px * 1.6 * 2 = 70.4px
   }
 }
 
 h2 {
-  font-size: 31.984px; // 18px * 1.333 * 1.333 = 31.984px
+  // 1.333 * 1.333 = 1.776em
+  font-size: 1.776em; // 18px * 1.333 * 1.333 = 31.984px
   line-height: 43.2px; // 18px * 1.6 * 1.5 (multi-line spacing) = 43.2px
 
   @media (min-width: 600px) {
-    font-size: 35.538px; // 20px * 1.333 * 1.333 = 35.538px
     line-height: 48px; // 20px * 1.6* 1.5 = 32px
   }
 
   @media (min-width: 1000px) {
-    font-size: 39.092px; // 22px * 1.333 * 1.333 = 39.092px
     line-height: 52.8px; // 22px * 1.6 * 1.5 = 52.8px
   }
 }
 
 h3 {
-  font-size: 23.994px; // 18px * 1.333 = 23.994px
+  // 1.333em
+  font-size: 1.333em; // 18px * 1.333 = 23.994px
   line-height: 28.8px; /* 18px * 1.6 = 28.8px */
 
   @media (min-width: 600px) {
-    font-size: 26.66px; // 20px * 1.333 = 26.66px
     line-height: 32px; // 20px * 1.6 = 32px
   }
 
   @media (min-width: 1000px) {
-    font-size: 29.326px; // 22px * 1.333 = 29.326px
     line-height: 35.2px; // 22px * 1.6 = 35.2px
   }
 }
