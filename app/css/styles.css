@@ -13,7 +13,7 @@ html {
       /* Un/comment below to create a visual baseline grid repat every 29px*/ } }
 
 h1 {
-  font-size: 2.368em;
+  font-size: 3em;
   line-height: 57.6px;
   /* 18px * 1.6 * 2 = 57.6px*/ }
   @media (min-width: 600px) {
