@@ -30,13 +30,7 @@ h3 {
   margin: 1.2em 0; }
 
 p, ul, ol, blockquote {
-  margin: 21.6px 0; }
-  @media (min-width: 600px) {
-    p, ul, ol, blockquote {
-      margin: 24px 0; } }
-  @media (min-width: 1000px) {
-    p, ul, ol, blockquote {
-      margin: 26.4px 0; } }
+  margin: 1.2em 0; }
 
 .inset {
   font-size: 0.64em;
