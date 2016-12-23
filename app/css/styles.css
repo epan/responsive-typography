@@ -41,25 +41,11 @@ p, ul, ol, blockquote {
   font-size: 0.64em;
   float: left;
   max-width: 16em;
-  margin: 6px 15px 0 0;
-  line-height: 21.6px; }
-  @media (min-width: 600px) {
-    .inset {
-      margin: 7px 15px 0 0;
-      line-height: 24px; } }
-  @media (min-width: 1000px) {
-    .inset {
-      margin: 8px 15px 0 0;
-      line-height: 26.4px; } }
+  margin: 0.52em 1.302em 0 0;
+  line-height: 1.875em; }
 
 .button {
   text-align: center;
   background-color: #ccc;
   max-width: 8em;
-  padding: 14.4px; }
-  @media (min-width: 600px) {
-    .button {
-      padding: 16px; } }
-  @media (min-width: 1000px) {
-    .button {
-      padding: 17.6px; } }
+  padding: 0.8em; }

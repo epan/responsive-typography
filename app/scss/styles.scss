@@ -63,33 +63,15 @@ p, ul, ol, blockquote {
   font-size: 0.64em; // 11.52px
   float: left;
   max-width: 16em;
-  margin: 6px 15px 0 0;
-  line-height: 21.6px; // 18px * 1.6 * 0.75 =  21.6px
-
-  @media (min-width: 600px) {
-    margin: 7px 15px 0 0;
-    line-height: 24px; // 20px *1.6 * 0.75
-  }
-
-  @media (min-width: 1000px) {
-    margin: 8px 15px 0 0;
-    line-height: 26.4px; // 22px * 1.6 * 0.75
-  }
+  margin: em(0.333, 0.64) em(0.833, 0.64) 0 0;
+  line-height: em(1.2, 0.64); // 18px * 1.6 * 0.75 =  21.6px
 }
 
 .button {
   text-align: center;
   background-color: #ccc;
   max-width: 8em;
-  padding: 14.4px; // 0.5 baseline
-
-  @media (min-width: 600px) {
-    padding: 16px; // 0.5 baseline
-  }
-
-  @media (min-width: 1000px) {
-    padding: 17.6px; // 0.5 baseline
-  }
+  padding: em(.8, 1); // 0.5 baseline
 }
 
 // ul, ol {
