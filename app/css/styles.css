@@ -1,15 +1,15 @@
 html {
   font-family: 'PT Serif', serif;
-  font-size: 1.125em;
+  font-size: 112.5%;
   line-height: 1.6;
   /* Un/comment below to create a visual baseline grid repat every 29px*/ }
   @media (min-width: 600px) {
     html {
-      font-size: 1.25em;
+      font-size: 125%;
       /* Un/comment below to create a visual baseline grid repat every 29px*/ } }
   @media (min-width: 1000px) {
     html {
-      font-size: 1.375em;
+      font-size: 137.5%;
       /* Un/comment below to create a visual baseline grid repat every 29px*/ } }
 
 h1 {
