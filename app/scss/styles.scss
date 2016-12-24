@@ -2,6 +2,10 @@
   @return $target / $context * 1em;
 }
 
+@function rem($lineHeight, $multiplier) {
+  @return 1rem * $lineHeight * $multiplier;
+}
+
 html {
   font-family: 'PT Serif', serif;
   font-size: 112.5%;
@@ -31,22 +35,22 @@ html {
 h1 {
   // 1.333 * 1.333 * 1.333 = 2.368em
   font-size: 2.368em; // 18px * 1.333 * 1.333 * 1.333 = 42.635px
-  line-height: em(3.2, 2.368); /* 18px * 1.6 * 2 = 57.6px*/
-  margin: em(1.6, 2.368) 0; // 18px * 1.6 = 28.8px
+  line-height: rem(1.6, 2); /* 18px * 1.6 * 2 = 57.6px*/
+  margin: rem(1.6, 1) 0; // 18px * 1.6 = 28.8px
 }
 
 h2 {
   // 1.333 * 1.333 = 1.776em
   font-size: 1.776em; // 18px * 1.333 * 1.333 = 31.984px
-  line-height: em(2.4, 1.776); // 18px * 1.6 * 1.5 (multi-line spacing) = 43.2px
-  margin: em(1.6, 1.776) 0; // 20px * 1.6 = 32px
+  line-height: rem(1.6, 1.5); // 18px * 1.6 * 1.5 (multi-line spacing) = 43.2px
+  margin: rem(1.6, 1) 0; // 20px * 1.6 = 32px
 }
 
 h3 {
   // 1.333em
   font-size: 1.333em; // 18px * 1.333 = 23.994px
-  line-height: em(1.6, 1.333); /* 18px * 1.6 = 28.8px */
-  margin: em(1.6, 1.333) 0; // 22px * 1.6 = 35.2px
+  line-height: rem(1.6, 1); /* 18px * 1.6 = 28.8px */
+  margin: rem(1.6, 1) 0; // 22px * 1.6 = 35.2px
 }
 
 p, ul, ol, blockquote {

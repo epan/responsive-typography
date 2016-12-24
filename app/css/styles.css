@@ -14,20 +14,20 @@ html {
 
 h1 {
   font-size: 2.368em;
-  line-height: 1.351em;
+  line-height: 3.2rem;
   /* 18px * 1.6 * 2 = 57.6px*/
-  margin: 0.676em 0; }
+  margin: 1.6rem 0; }
 
 h2 {
   font-size: 1.776em;
-  line-height: 1.351em;
-  margin: 0.901em 0; }
+  line-height: 2.4rem;
+  margin: 1.6rem 0; }
 
 h3 {
   font-size: 1.333em;
-  line-height: 1.2em;
+  line-height: 1.6rem;
   /* 18px * 1.6 = 28.8px */
-  margin: 1.2em 0; }
+  margin: 1.6rem 0; }
 
 p, ul, ol, blockquote {
   margin: 1.2em 0; }
