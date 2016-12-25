@@ -33,24 +33,35 @@ html {
 }
 
 h1 {
-  // 1.333 * 1.333 * 1.333 = 2.368em
-  font-size: 2.368em; // 18px * 1.333 * 1.333 * 1.333 = 42.635px
-  line-height: rem(1.6, 2); /* 18px * 1.6 * 2 = 57.6px*/
-  margin: rem(1.6, 1) 0; // 18px * 1.6 = 28.8px
+  font-size: 1.728em; // 1.2 ^ 3 = 1.994
+  line-height: rem(1.6, 1);
+  margin: rem(1.6, 1) 0;
+
+  @media (min-width: 600px) {
+    font-size: 2.368em; // 1.333 * 1.333 * 1.333 = 2.368em
+    line-height: rem(1.6, 2);
+  }
 }
 
 h2 {
-  // 1.333 * 1.333 = 1.776em
-  font-size: 1.776em; // 18px * 1.333 * 1.333 = 31.984px
-  line-height: rem(1.6, 1.5); // 18px * 1.6 * 1.5 (multi-line spacing) = 43.2px
-  margin: rem(1.6, 1) 0; // 20px * 1.6 = 32px
+  font-size: 1.44em; // 1.2 ^ 2 = 1.44
+  line-height: rem(1.6, 1);
+  margin: rem(1.6, 1) 0;
+
+  @media (min-width: 600px) {
+    font-size: 1.776em; // 1.333 * 1.333 = 1.776em
+    line-height: rem(1.6, 1.5);
+  }
 }
 
 h3 {
-  // 1.333em
-  font-size: 1.333em; // 18px * 1.333 = 23.994px
-  line-height: rem(1.6, 1); /* 18px * 1.6 = 28.8px */
-  margin: rem(1.6, 1) 0; // 22px * 1.6 = 35.2px
+  font-size: 1.2em; // 1.2 ^ 1 = 1.2
+  line-height: rem(1.6, 1);
+  margin: rem(1.6, 1) 0;
+
+  @media (min-width: 600px) {
+    font-size: 1.333em; // 1.333em
+  }
 }
 
 p, ul, ol, blockquote {
